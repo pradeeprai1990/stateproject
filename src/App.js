@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import Faq from './Faq';
 
 function App() {
-  let [counter,setCouter]=useState(1); 
-  let [passwordStatus,setPasswordStatus]=useState(false)
+  // let [counter,setCouter]=useState(1); 
+  // let [passwordStatus,setPasswordStatus]=useState(false)
   // let count=1;
 
   // let chnageCounter=()=>{
@@ -18,7 +19,12 @@ function App() {
 
   return (
     <div className="App">
-        <h1>  {counter}   </h1>
+
+        <Faq/>
+
+
+
+        {/* <h1>  {counter}   </h1>
         <button onClick={()=>setCouter(counter+1)}>Counter</button>
 
           <br/>
@@ -28,7 +34,7 @@ function App() {
           <button onClick={()=>setPasswordStatus(!passwordStatus)}> 
           { (passwordStatus) ? 'hide' : 'show' }
            </button>
-
+ */}
 
 
 

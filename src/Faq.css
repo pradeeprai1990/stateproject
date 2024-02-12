@@ -1,0 +1,41 @@
+.faqOuter{
+    width: 1320px;
+    margin: auto;
+    
+}
+
+.faqItems{
+    width: 100%;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+.faqItems h2{
+    margin: 0px;
+    background-color: rgb(29, 39, 39);
+    color: white;
+    padding: 0px;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+}
+.faqItems h2 span{
+    position: absolute;
+    font-size: 25px;
+    right: 10px;
+}
+
+.faqItems p{
+    margin: 0px;
+    text-align: left;
+    height: 0px;
+    transform: scaleY(0);
+    transition: 0.5s;
+    transform-origin: top;
+}
+
+.ansShow{
+    height: auto !important;
+    padding: 10px !important;
+    transform: scaleY(1) !important;
+}
